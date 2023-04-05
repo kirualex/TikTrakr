@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA5A9D629DD03E800CF8B89 /* TikTrakrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A9D529DD03E800CF8B89 /* TikTrakrApp.swift */; };
+		FAA5A9D829DD03E800CF8B89 /* TimerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A9D729DD03E800CF8B89 /* TimerListView.swift */; };
+		FAA5A9DA29DD03E900CF8B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5A9D929DD03E900CF8B89 /* Assets.xcassets */; };
+		FAA5A9DE29DD03E900CF8B89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5A9DD29DD03E900CF8B89 /* Preview Assets.xcassets */; };
+		FAA5A9E529DD03FE00CF8B89 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A9E429DD03FE00CF8B89 /* TimerModel.swift */; };
+		FAA5A9E729DD041600CF8B89 /* TimerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A9E629DD041600CF8B89 /* TimerRow.swift */; };
+		FAA5A9E929DD042900CF8B89 /* AddTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A9E829DD042900CF8B89 /* AddTimerView.swift */; };
+		FAA5A9EB29DD06D700CF8B89 /* TimerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A9EA29DD06D700CF8B89 /* TimerList.swift */; };
+		FAA5A9ED29DD07A300CF8B89 /* EditTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A9EC29DD07A300CF8B89 /* EditTimerView.swift */; };
+		FAA5A9F329DE00CF00CF8B89 /* Codable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A9F229DE00CF00CF8B89 /* Codable+Extensions.swift */; };
+		FAA5A9F529DE00D300CF8B89 /* FileSystem+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A9F429DE00D300CF8B89 /* FileSystem+extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAA5A9D229DD03E800CF8B89 /* TikTrakr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTrakr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA5A9D529DD03E800CF8B89 /* TikTrakrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTrakrApp.swift; sourceTree = "<group>"; };
+		FAA5A9D729DD03E800CF8B89 /* TimerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerListView.swift; sourceTree = "<group>"; };
+		FAA5A9D929DD03E900CF8B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA5A9DB29DD03E900CF8B89 /* TikTrakr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TikTrakr.entitlements; sourceTree = "<group>"; };
+		FAA5A9DD29DD03E900CF8B89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAA5A9E429DD03FE00CF8B89 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		FAA5A9E629DD041600CF8B89 /* TimerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerRow.swift; sourceTree = "<group>"; };
+		FAA5A9E829DD042900CF8B89 /* AddTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTimerView.swift; sourceTree = "<group>"; };
+		FAA5A9EA29DD06D700CF8B89 /* TimerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerList.swift; sourceTree = "<group>"; };
+		FAA5A9EC29DD07A300CF8B89 /* EditTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimerView.swift; sourceTree = "<group>"; };
+		FAA5A9F229DE00CF00CF8B89 /* Codable+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+Extensions.swift"; sourceTree = "<group>"; };
+		FAA5A9F429DE00D300CF8B89 /* FileSystem+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileSystem+extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA5A9CF29DD03E800CF8B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA5A9C929DD03E800CF8B89 = {
+			isa = PBXGroup;
+			children = (
+				FAA5A9D429DD03E800CF8B89 /* TikTrakr */,
+				FAA5A9D329DD03E800CF8B89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA5A9D329DD03E800CF8B89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5A9D229DD03E800CF8B89 /* TikTrakr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA5A9D429DD03E800CF8B89 /* TikTrakr */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5A9D529DD03E800CF8B89 /* TikTrakrApp.swift */,
+				FAA5A9F729DE052F00CF8B89 /* Views */,
+				FAA5A9F629DE051A00CF8B89 /* Models */,
+				FAA5A9F829DE053500CF8B89 /* Extensions */,
+				FAA5A9D929DD03E900CF8B89 /* Assets.xcassets */,
+				FAA5A9DB29DD03E900CF8B89 /* TikTrakr.entitlements */,
+				FAA5A9DC29DD03E900CF8B89 /* Preview Content */,
+			);
+			path = TikTrakr;
+			sourceTree = "<group>";
+		};
+		FAA5A9DC29DD03E900CF8B89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5A9DD29DD03E900CF8B89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAA5A9F629DE051A00CF8B89 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5A9E429DD03FE00CF8B89 /* TimerModel.swift */,
+				FAA5A9EA29DD06D700CF8B89 /* TimerList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAA5A9F729DE052F00CF8B89 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5A9D729DD03E800CF8B89 /* TimerListView.swift */,
+				FAA5A9EC29DD07A300CF8B89 /* EditTimerView.swift */,
+				FAA5A9E829DD042900CF8B89 /* AddTimerView.swift */,
+				FAA5A9F929DE0D1700CF8B89 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAA5A9F829DE053500CF8B89 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5A9F429DE00D300CF8B89 /* FileSystem+extensions.swift */,
+				FAA5A9F229DE00CF00CF8B89 /* Codable+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FAA5A9F929DE0D1700CF8B89 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5A9E629DD041600CF8B89 /* TimerRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA5A9D129DD03E800CF8B89 /* TikTrakr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5A9E129DD03E900CF8B89 /* Build configuration list for PBXNativeTarget "TikTrakr" */;
+			buildPhases = (
+				FAA5A9CE29DD03E800CF8B89 /* Sources */,
+				FAA5A9CF29DD03E800CF8B89 /* Frameworks */,
+				FAA5A9D029DD03E800CF8B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TikTrakr;
+			productName = TikTrakr;
+			productReference = FAA5A9D229DD03E800CF8B89 /* TikTrakr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA5A9CA29DD03E800CF8B89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FAA5A9D129DD03E800CF8B89 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = FAA5A9CD29DD03E800CF8B89 /* Build configuration list for PBXProject "TikTrakr" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA5A9C929DD03E800CF8B89;
+			productRefGroup = FAA5A9D329DD03E800CF8B89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA5A9D129DD03E800CF8B89 /* TikTrakr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA5A9D029DD03E800CF8B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5A9DE29DD03E900CF8B89 /* Preview Assets.xcassets in Resources */,
+				FAA5A9DA29DD03E900CF8B89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA5A9CE29DD03E800CF8B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5A9F329DE00CF00CF8B89 /* Codable+Extensions.swift in Sources */,
+				FAA5A9ED29DD07A300CF8B89 /* EditTimerView.swift in Sources */,
+				FAA5A9E529DD03FE00CF8B89 /* TimerModel.swift in Sources */,
+				FAA5A9D829DD03E800CF8B89 /* TimerListView.swift in Sources */,
+				FAA5A9E729DD041600CF8B89 /* TimerRow.swift in Sources */,
+				FAA5A9EB29DD06D700CF8B89 /* TimerList.swift in Sources */,
+				FAA5A9E929DD042900CF8B89 /* AddTimerView.swift in Sources */,
+				FAA5A9D629DD03E800CF8B89 /* TikTrakrApp.swift in Sources */,
+				FAA5A9F529DE00D300CF8B89 /* FileSystem+extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAA5A9DF29DD03E900CF8B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA5A9E029DD03E900CF8B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FAA5A9E229DD03E900CF8B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TikTrakr/TikTrakr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TikTrakr/Preview Content\"";
+				DEVELOPMENT_TEAM = ZAMD7Q9KYY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexiscreuzot.TikTrakr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA5A9E329DD03E900CF8B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TikTrakr/TikTrakr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TikTrakr/Preview Content\"";
+				DEVELOPMENT_TEAM = ZAMD7Q9KYY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexiscreuzot.TikTrakr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA5A9CD29DD03E800CF8B89 /* Build configuration list for PBXProject "TikTrakr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5A9DF29DD03E900CF8B89 /* Debug */,
+				FAA5A9E029DD03E900CF8B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA5A9E129DD03E900CF8B89 /* Build configuration list for PBXNativeTarget "TikTrakr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5A9E229DD03E900CF8B89 /* Debug */,
+				FAA5A9E329DD03E900CF8B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA5A9CA29DD03E800CF8B89 /* Project object */;
+}
